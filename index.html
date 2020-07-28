@@ -1,117 +1,4 @@
-body{
-    background-image:   url(Images/background.gif);
-    background-repeat:repeat-x;
-    background-size: cover;
-    }
-    .topBar{
-    width: 100%;
-    top: 0;
-    height: 50px;
-    position: fixed;
-    right: 0;
-    -webkit-box-shadow: 0px 0px 8px 0px #000;
 
-    background-image:url(Images/topBar2.gif);
-    }
-    #logoImage{
-    float: left;
-    width: 180px;
-    height: 50px;
-    top: 0;
-    margin-left: 380px;
-    background-image: url(Images/images/topBar_02.gif);
-
-    }
-
-    .topBar h1{
-    float: left;
-    margin-left: 400px;
-    color: white;
-    top: 0;
-    font-family: Tahoma, Geneva, sans-serif;
-    text-align:justify;
-    text-shadow: -1px -1px 1px #000;
-
-    }
-    .logoImage {
-    top: 0;
-    float: left;
-    margin-left: 100px;
-    }
-    #btn{
-    cursor:pointer;
-    border-radius: 4px;
-    border: 1px solid #039;
-    font: 16px bold  Tahoma, Geneva, sans-serif;
-    color: white;
-
-    background-color: #0499ff;
-
-    padding 4px;
-
-
-    }
-    .searchBox {
-    float: right;
-    margin-top: 7px;
-
-    padding-right: 500px;
-
-
-    }
-    .searchBox input{
-    border-radius: 5px;
-    padding:4px;
-
-    color:#666;
-    font:  "Times New Roman", Times, serif;
-
-    }
-
-    .topBar img{
-    width: 40px;
-    height:20px;
-    margin: 20px;
-    margin-left: 400px;
-    }
-    .mainLogin{
-    border: 1px solid  #999;
-    border-radius: 6px;
-    width: 300px;
-    height: 100px;
-    margin-top: 300px;
-    float: right;
-    margin-right: 500px;
-    position: fixed;
-    background-image:url(Images/login_back2.gif);
-    padding: 20px;
-
-
-
-    }
-   .mainLogin input{
-    border-radius: 5px;
-    padding: 4px;
-
-    }
-    .username{
-    width: 300px;
-
-    }
-    #rmbrme{
-    float:right;
-    color: #999;
-    text-shadow:-.3px -.3px .3px #000;
-    margin-right: 110px;
-    margin-top: 3px;
-    font: 10px Georgia, "Times New Roman", Times, serif;
-
-    }
-    #rmbrme a{
-    text-decoration: none;
-    color: #999;
-    text-shadow: -.3px -.3px .3px #000;
-    }
 
 <body>
     <center>
@@ -123,9 +10,33 @@ body{
 
     <dic id= contant>
             <h2>1.깃 시작하기</h2>
-            <p>  1)git init<br> 2)git remote add origin (내 깃허브 주소) <br> 3)git add .<br> 4)git commit -m"~~~~"<br>
-                5)git push origin master 
-            </p>
+            <tabel>
+                <th>순서</th>
+                <th>코드</th>
+                <tr>
+                    <tb>1</tb>
+                    <tb>git init <br> 깃을 초기화 한다</tb>
+                </tr>
+                <tr>
+                    <tb>2</tb>
+                    <tb>git remote add origin "내 깃허브 주소" </tb>
+                </tr>
+                <tr>
+                    <tb>3</tb>
+                    <tb>git add .<br>촐더에 변경된 내용을 staging area에 올린다.</tb>
+                </tr>
+                <tr>
+                    <tb>4</tb>
+                    <tb>git commit -m"~~~~~"</tb>
+                </tr>
+                <tr>
+                    <tb>5</tb>
+                    <tb>git push origin master <br> 올라가랏!</tb>
+                </tr>
+            
+
+
+            </tabel>
             <font size="20em" color="red">%변경된 부분 업로드시 3~5번 반복</font>
     </dic>
     
